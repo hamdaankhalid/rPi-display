@@ -14,6 +14,8 @@
                 <groupId>rpi</groupId>
                 <artifactId>rpi</artifactId>
                 <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
@@ -24,6 +26,20 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.7.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
